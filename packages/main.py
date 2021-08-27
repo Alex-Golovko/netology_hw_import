@@ -3,7 +3,7 @@ from application.db.people import get_employees
 import datetime
 
 if __name__ == '__main__':
-    datetime.today()
+    print(datetime.date.today())
     calculate_salary()
     
     get_employees()
